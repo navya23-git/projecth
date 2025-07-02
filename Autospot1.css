@@ -1,0 +1,1301 @@
+.container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.25rem; /* 20px */
+  background-color: #000;
+  border: 2px solid;
+  z-index: 1000;
+}
+label{
+  display: none;
+}
+.home,.services,.about,.gallery,.contacts{
+    margin-top:1rem;
+}
+.twitter,.facebook,.instagram{
+    margin-top:1rem;
+    color: white;
+}
+#Home{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#Services{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#About{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+#gallery{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+#contacts{
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+.container1 {
+  height: 60vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  animation: a 9s infinite alternate;
+  margin-top: -13rem;
+}
+@keyframes a {
+  from{
+         background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP3yhXBBqj_uSDIRMlkh58BRKDs9zo5jt9Vg&s');
+          width: 100%;
+  }
+  to{
+          background-image: url('https://www.shutterstock.com/image-photo/hand-car-mechanic-wrench-auto-600nw-2516433639.jpg');
+        width: 100%;
+  }
+}
+.text{
+   margin-top: 15.625rem;
+   margin-left: 25rem;
+}
+.t1{
+   color:white;
+   font-size:2.5rem;
+   font-weight: bold;
+   margin-left:0.625rem;
+   text-align: center;
+   gap:5px;
+   margin-top:1.25rem;
+   text-align: center;
+   animation-name: c;
+   animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation: c 3s ease-in forwards ;
+} 
+.t2{
+  color:white;
+  font-size: 2.5rem;
+  font-weight: bold;  
+ margin-left: 0px;
+ margin-top: 0.625rem;
+text-align: center;
+ margin-left: -9.375;
+  gap:5px;
+  animation-name: c;
+ animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation: c 3s ease-in forwards ;
+} 
+ .t3{
+  height:40px;
+  width:fit-content;
+  border-radius: 10px 10px 10px 10px;
+  background-color:skyblue;
+ margin-top:1.25rem;
+  margin-left:25rem;
+  color:white;
+  text-align: center;
+  animation-name: c;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation: c 3s ease-in forwards ;
+ }
+#take{
+  font-size: 1em;
+  color: white;
+}
+.t3:hover{
+  width: 250px;
+
+}
+.t3:hover>#take{
+   margin-left: 1.5625rem;
+}
+@keyframes c {
+  from{
+      transform: translateY(20px);
+  }
+  to{
+     transform: translateY(40px);
+  }
+}
+.text1{
+    margin-top: 15.625rem;
+   margin-left: 25rem;
+}
+.t6{
+   color:skyblue;
+   font-size: larger;
+}
+.t7{
+   color:white;
+  font-size: larger
+}
+.t8{
+ height:40px;
+  width:fit-content;
+  border:2px solid;
+  border-radius: 10px 10px 10px 10px;
+  padding-top:0.625rem;
+  color:white;
+}
+ .container2{
+  height:90%;
+  width:65vw; 
+ /* border:2px solid;  */
+   margin-left:290px;
+  margin-top: -100px;
+  background-color: white;
+   animation: h  2s ease backwards;
+  animation-name: h;
+  animation-duration: 2s;
+  animation-iteration-count: 1; 
+}
+
+@keyframes h {
+  from{
+        transform:translateY(-100px); 
+  }
+  to{
+         transform:translateY(150px);
+  }
+ }
+ .box{
+  height:250px;
+  width:100%; 
+  /* border:2px solid; */
+   display: flex;
+  justify-items: start;
+}
+.b{
+   height:250px;
+   width:400px; 
+   /* border:2px solid; */
+   font-size: larger;
+   text-align: center;
+   padding-top: 20px;
+}
+.b1{
+   height:250px;
+   width:400px; 
+   /* border:1px solid;  */
+   font-size: larger;
+   text-align: center;
+   padding-top: 20px;
+}
+.b2{
+  height:250px;
+   width:400px; 
+   /* border:1px solid; */
+   font-size: larger;
+   text-align: center;
+   padding-top: 20px;
+}
+.box1{
+ height:250px;
+  width:100%; 
+   /* border:2px solid;  */
+    display:flex;
+   justify-content: start;
+   font-size: larger;
+   text-align: center;
+   padding-top: 20px;
+} 
+ .a{
+  height:250px;
+   width:400px; 
+   /* border:1px solid;  */
+    font-size: larger;
+   text-align: center;
+   padding-top: 20px;
+}
+.a1{
+  height:250px;
+   width:400px; 
+   /* border:1px solid; */
+    font-size: larger;
+   text-align: center;
+   padding-top: 20px;
+}
+.a2{
+  height:250px;
+   width:400px; 
+   font-size: larger;
+   text-align: center;
+   padding-top: 20px;
+}
+.binside1{
+ font-size: 50px;
+ font-weight: bold;
+}
+.b1inside1{
+  font-size: 50px;
+  font-weight: bold;
+}
+.b2inside1{
+   font-size: 50px;
+   font-weight: bold;
+}
+.ainside1{
+   font-size: 50px;
+   font-weight: bold;
+}
+.a1inside1{
+   font-size: 50px;
+   font-weight: bold;
+}
+.a2inside1{
+ font-size: 50px;
+ font-weight: bold;
+}
+.binside1,.b1inside1,.b2inside1{
+ color:skyblue;
+}
+.ainside1,.a1inside1,.a2inside1{
+  color:skyblue;
+}
+.a2inside3{
+  height:40px;
+  width:170px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: skyblue;
+  font-size: large;
+  color: white;
+  margin-left: 60px;
+  padding-top: 10px;
+}
+.container3{
+  height:100vh;
+  width:100%;  
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin-top: 16rem;
+}
+.car{
+   height:1000px;
+   width:100%; 
+} 
+ @keyframes slideRight {
+  from {
+    transform: translateX(0);    
+    opacity: 0;
+  }
+  to { 
+    transform: translateX(150px); 
+     opacity: 1;
+  } 
+} 
+
+.car {
+  animation: slideRight 1s ease-in-out forwards;
+  animation-iteration-count: infinite;
+}
+
+.image1{
+   height:800px;
+   width:100%;
+   margin-left: -150px;
+}
+.car1{
+   height:600px;
+   width:70%;
+   margin-top:-700px; 
+   margin-left: 600px;
+   
+ }
+.about1{
+  margin-left: 10%;
+  font-size: 30px;
+  font-weight: bold;
+}
+span{
+  color: black;
+  font-size: larger;
+}
+.motivation{
+  height:30px;
+  width:100%;
+  background-color: grey;
+}
+.data1{
+  display:none;
+}
+.motivation:hover~.data1{
+    background-color: white;
+    display:block;
+}
+.quality{
+   height:30px;
+  width:100%;
+  background-color: grey;
+}
+.data2{
+   display:none;
+}
+.quality:hover~.data2{
+   background-color: white;
+    display:block;
+}
+
+.future{
+   height:30px;
+  width:100%;
+  background-color: grey;
+   }
+.data3{
+  display:none;
+}
+.future:hover~.data3{
+background-color: white;
+    display:block;
+}
+.s1{
+  font-size: larger;
+   text-align: center;
+   
+}
+b{
+  color:black;
+  font-size: larger;
+}
+.s2{
+  text-align: center;
+  font-size: medium;
+  } 
+  .container4 {
+  height: 100vh;
+  width: 98vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: -100px;
+}
+
+.imge {
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 400px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.imge img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.4s ease-out;
+  display: block;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.imge:hover img {
+  transform: scale(1.1);
+}
+.imge::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.4);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.imge:hover::before {
+  opacity: 1;
+}
+
+.overlay-text,
+.overlay-text1,
+.overlay-text2 {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.3s ease;
+  z-index: 2;
+  text-align: center;
+}
+
+.overlay-text {
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay-text1 {
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay-text2 {
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay-text2 i {
+  font-size: 24px;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 5px;
+}
+.imge:hover .overlay-text,
+.imge:hover .overlay-text1,
+.imge:hover .overlay-text2 {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1.1);
+}
+.container5 {
+  height: 46vh;
+  width: 100%;
+  margin-top: -120px;
+  background-color: lightskyblue;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; 
+}
+.simg {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  z-index: -1; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.5; 
+}
+
+.text8{
+    font-size: larger;
+    font-weight: bold;
+}
+.text9{
+    height:40px;
+    width:150px;
+    border:2px solid;
+   padding-top: 10px;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+ .container6{
+  height:80vh;
+  width:100%; 
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.exp{
+    height:500px;
+    width:50%;
+    margin-top: 20px;
+}
+span{
+  font-size: 30px;
+  
+}
+.exp2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.exp3{
+    font-size: larger;
+}
+.exp4{
+   font-size: larger;
+}
+.skill-container {
+  max-width: 600px;
+  margin: auto;
+  margin-top:15px;
+  font-family: Arial, sans-serif;
+}
+.skill {
+  margin: 25px 0;
+}
+.skill span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+.progress-bar {
+  background-color: #eee;
+  border-radius: 10px;
+  height: 12px;
+  overflow: hidden;
+}
+.progress {
+  height: 100%;
+  width: 0;
+  background-color: #2196f3; 
+   border-radius: 10px;
+  text-align: right;
+  font-size: 12px;
+  color: black;
+  line-height: 12px;
+  padding-right: 5px;
+  animation: fillBar 2s ease forwards;
+  animation-iteration-count: infinite;
+} 
+ @keyframes fillBar {
+  to {
+    width: 100%;
+  }
+} 
+ .container7{
+   height:600px;
+   width:100%;
+   background-color: silver;
+   margin-top: -250px;
+}
+ .e{
+  text-align:center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 40px;
+}
+.e1{
+  border-radius: 50%;
+  margin-left: 650px;
+  margin-top: 50px;
+  display:block;
+}
+.mm1{
+  margin-left:800px;
+  margin-top: -50px;
+}
+.e2{
+ text-align: center;
+ font-size: 30px;
+  margin-top: 50px;
+  display:block;
+}
+.e3{
+ text-align: center;
+ font-size: 40px;
+ margin-top: 80px;
+ display:block;
+}
+.e4{
+   text-align: center;
+   margin-top: 20px;
+}
+ .e5{
+ text-align: center;
+ font-size: 30px;
+  margin-top: 50px;
+  display:block;
+}
+img.thumb1,.e5{
+   display:none;
+}
+.er1{
+ text-align: center;
+ font-size: 30px;
+  margin-top: 50px;
+} 
+.er2{
+  text-align: center;
+ font-size: 30px;
+  margin-top: 50px;
+}
+.mm1:hover~img.thumb1,
+.mm1:hover~.e5,
+.mm1:hover~.er1,
+.mm1:hover~.er2{
+  display:block;
+}
+ .mm1:hover~img.thumb,
+ .mm1:hover~.e2,
+ .mm1:hover~.e3{
+  display:none;
+}  
+ .container10{
+  height:46vh;
+  width:100%;
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.map{
+   width:100%;
+    transform:all 0.3s ease-in;
+}
+.container11{
+  height:130vh;
+  width:85vw;
+  display:flex;
+  flex-wrap: wrap;
+  margin-left: 130px;
+  margin-top: 200px;
+}
+.con{
+  height:80vh;
+  width:70vw;
+  display: flex;
+  background-color: white;
+   animation: a2  2s ease forwards;
+   animation-iteration-count: 1;
+     transform:translateY(100%);
+     z-index:-1;   
+     /* box-shadow: 0px 0px 5px 5px; */
+} 
+@keyframes a2{
+  from{
+     transform: translateY(-20%);
+  }
+  to{
+    transform: translateY(-50%);
+    z-index:1;
+
+  }
+}
+.contact{
+    height:600px;
+    width:50%;
+ } 
+.our{
+font-size: 30px;
+display: flex;
+text-align: center;
+
+}
+#ic{
+  margin-left: 1rem;
+  font-size: 2rem;
+  margin-top: 1.4rem;
+}
+
+.address{
+   margin-left: 4rem;
+  margin-top: -2.0rem;
+  font-size: 1.5rem;
+} 
+.colony{
+  margin-left:3rem;
+  font-size: 20px;
+}
+ #ic1{
+  margin-left:1.5rem;
+  font-size: 2rem;
+  margin-top: 1.5;
+}
+.email1{
+    margin-top: -2.0rem;
+     margin-left: 4.5rem;
+     font-size: 1.4rem;
+     font-style: normal;
+     font-weight: bold;
+}
+.email2{
+    font-size: 20px;
+    margin-left: 3rem;
+} 
+#ic2{
+  margin-left:2rem ;
+  margin-top: 1.2rem;
+  font-size: 1.4rem;
+  padding-top: 3rem;
+}
+.telephone{
+  margin-top:-1.2rem;
+  margin-left: 4rem;
+  font-size: 1.4rem;
+}
+.mobile{
+  margin-top: -1.2rem;
+  margin-left: 3.5rem;
+}
+#ic3{
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+.hours{
+    font-size: 1.4rem;
+    margin-left: 5rem;
+    margin-top: -2rem;
+}
+.hour{
+    margin-left: 4rem;
+    margin-top:-1.2rem
+}
+#ic4{
+      margin-top: 2rem;
+      margin-left: 2.5rem;
+      font-size: 1.4rem;
+}
+.information{
+   margin-left: 5rem;
+  margin-top: -1.5rem;
+}
+.info{
+    margin-left: 2rem;
+    margin-top: -1.3rem;
+}  
+ .message{
+ height:500px;
+  width:40%;
+}
+input{
+  height:20px;
+  width:100%;
+}
+.send{
+  font-size: 20px;
+  font-weight: bold;
+text-align: center;
+}
+.sendmessage{
+  text-align: center;
+  height:30px;
+  width:150px;
+  padding-top: 20px;
+  margin-left: 20px;
+  background-color: blue;
+  border-radius: 10px 10px 10px 10px;
+}   
+  .foot{
+  height:60vh;
+  width: 98vw; 
+    margin-top: -25rem;
+ background-color:aliceblue;
+}
+.foot1{
+     display:flex;
+    justify-content: space-evenly;
+}
+.one{
+     font-size: 30px;
+     font-weight: bold;
+     text-align: center;
+     margin-top: 8rem;
+}  
+.k{
+  display: flex;
+  gap:5em;
+  animation: a1  2s ease forwards;
+  animation-iteration-count: infinite;
+  transform:translateX(98%);
+}
+.k1{
+      margin-top: 8rem;
+      animation-name: a;
+     
+}
+.k2{
+        margin-top: 8rem; 
+        animation-name: a;
+}
+.k3{
+       margin-top: 8rem;  
+       animation-name: a;  
+}
+.k4{
+       margin-top: 8rem;  
+       animation-name: a;  
+}
+.k5{
+     margin-top: 8rem;
+     
+}
+@keyframes a1 {
+ from{
+  transform:translate(98%);
+} 
+
+to{
+  transform:translateX(0);
+}
+} 
+@media (min-width: 34.65rem) {
+  .container {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1rem;
+  }
+  .container1 { height: 60vh; margin-top: -11.2rem; }
+  .text, .text1 {
+    margin-left: 2rem;
+    width: auto;
+    text-align: left;
+    background-color: none;
+  }
+  .t1, .t2 { font-size: 2.5rem; margin: 1rem 0; }
+  .t3 { margin-left: 11.25rem; padding: 0.625rem 1rem; }
+}
+@media only screen and (max-width: 41.5rem) {
+  /* 1. Container setup: centered and flexible */
+  .container2 {
+    width: 90vw;
+    margin: 2rem auto 0;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    animation: none;
+  }
+
+  /* 2. Stack items vertically with consistent spacing */
+
+   .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem; /* ensures clear, even space between .b and .a groups */
+    width: 100%;
+   }
+  /* 3. Panels span full width with clean padding */
+  .b2, .a {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  /* 4. Stack and style B2 headings */
+  .b2inside1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem; /* creates breathing room after each */
+  }
+  .b2inside2 {
+    font-size: 1rem;
+    margin-bottom: 2rem; /* creates breathing room after each */
+  }
+  .b2inside3 {
+    font-size: 1rem;
+    margin-bottom: 3rem; /* creates breathing room after each */
+  }
+
+  /* 5. Then stack and style A headings */
+  
+   .box1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem; /* ensures clear, even space between .b and .a groups */
+    width: 100%;
+    bottom:2rem;
+    margin-top: 10rem;
+   }
+   .ainside1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .ainside2{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+   .ainside3 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  .a1inside3{
+    font-size: 1rem;
+  }
+  /* 6. Button: centered and responsive */
+  .a2inside3 {
+    width: 70%;
+    margin: 1rem auto;
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+   }
+  @media only screen and (max-width: 41.5rem) {
+  /* Container becomes vertical sectioned layout */
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9rem;
+    padding: 1rem 0;
+  }
+
+  /* Car (carousel) adapts to full width and moderate height */
+  .car {
+    width: 100%;
+    height: auto;
+    animation: slideRight 1s ease-in-out forwards;
+    /* Consider removing infinite to avoid continuous movement on mobile */
+    animation-iteration-count: 1;
+  }
+
+  /* Remove large image offsets */
+  .image1 {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .car1 {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0 0 0;
+  }
+
+  /* About section centers and reduces font size */
+  .about1 {
+    width: 90%;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  /* Accordion-like sections full width and simplified */
+  .motivation, .quality, .future {
+    width: 30%;
+    height: auto;
+    margin: 1rem auto;
+    padding: 0.75rem;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  /* Data sections visible under their respective headers */
+  .data1, .data2, .data3 {
+    width: 30%;
+    margin: 0.5rem auto 1rem;
+    padding: 0.75rem;
+    display: none;
+    font-size: 1rem;
+    background-color: white;
+  }
+
+  .motivation:hover ~ .data1,
+  .quality:hover ~ .data2,
+  .future:hover ~ .data3 {
+    display: block; /* show when tapped/hovered */
+  }
+
+  /* Text improvements */
+  .s1 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+  .s2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 41.5rem) {
+  /* 1. Gallery container becomes single-column flex */
+  .container4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0;
+  }
+
+  /* 2. Image panels switch to full-width, maintain aspect ratio */
+  .imge {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  /* 3. Make images fill their panels cleanly */
+  .imge img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* maintains aspect ratio while filling container :contentReference[oaicite:1]{index=1} */
+    display: block;
+  }
+
+  /* 4. Scale down overlay text for readability */
+  .overlay-text,
+  .overlay-text1,
+  .overlay-text2 {
+    font-size: 1rem;
+  }
+
+  /* 5. Container5, image background, and buttons scale responsively */
+  .container5 {
+    height: auto;
+    padding: 1.5rem 0;
+    margin-top:5rem;
+  }
+  .simg {
+    width: 100%;
+    height: auto;
+  }
+  .text8 {
+    font-size: 1.25rem;
+  }
+  .text9 {
+    width: 80%;
+    font-size: 1rem;
+    margin: 1rem auto;
+  }
+
+  /* 6. Experience section stacks vertically */
+  .container6 {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .exp {
+    width: 90%;
+    margin: 1rem auto;
+    height: auto;
+  }
+  .exp2 { font-size: 2rem; }
+  .exp3, .exp4 { font-size: 1rem; }
+
+  /* 7. Skill bars shrink for mobile */
+  .skill-container {
+    width: 90%;
+    margin-top: 1rem;
+  }
+  .progress-bar { height: 10px; }
+  .progress { font-size: 10px; }
+
+  /* 8. Contact section adapts */
+  .contact,
+  .container11 {
+    width: 90%;
+    margin: 1rem auto;
+    height: auto;
+  }
+
+  #ic, #ic1, #ic2, #ic3, #ic4 {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+  }
+  .address, .email2, .telephone, .hours {
+    font-size: 0.9rem;
+    margin-left: 1rem;
+  }
+
+  /* 9. Message form and send button are full-width */
+  .message {
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .sendmessage {
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  /* 10. Disable heavy animations in footer */
+  .foot {
+    margin-top: 2rem;
+  }
+  .one {
+    font-size: 1.5rem;
+  }
+  .k, .k1, .k2, .k3, .k4, .k5 {
+    animation: none;
+  }
+}
+@media only screen and (max-width: 41.5rem) {
+  /* ↓ Container5: full-width, auto height */
+  .container5 {
+    height: auto;
+    padding: 2rem 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .simg {
+    width: 100%;
+    height: auto;
+  }
+  .text8 {
+    font-size: 1.5rem;
+  }
+  .text9 {
+    width: 80%;
+    font-size: 1rem;
+    margin: 1rem auto;
+  }
+
+  /* ↓ Container6: stack experience items vertically */
+  .container6 {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 3rem;
+  }
+  .exp {
+    width: 90%;
+    height: auto;
+    margin: 1rem auto;
+  }
+  .exp2 {
+    font-size: 2rem;
+  }
+  .exp3, .exp4 {
+    font-size: 1rem;
+  }
+
+  /* ↓ Skill section: full width */
+  .skill-container {
+    width: 90%;
+    margin: 1rem auto;
+  }
+  .progress-bar {
+    height: 10px;
+  }
+  .progress {
+    font-size: 10px;
+  }
+
+  /* ↓ Container7: center and simplify */
+  .container7 {
+    height: auto;
+    padding: 2rem 0;
+    margin-top: 10rem;
+  }
+  .e {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  .e1, .e2, .e3, .e4, .e5, .er1, .er2 {
+    margin: 1rem auto;
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+  }
+  /* Image toggling simplified */
+  img.thumb1,
+  .e5 {
+    display: none;
+  }
+  /* Disable animations for mobile */
+  .mm1,
+  .k, .k1, .k2, .k3, .k4, .k5 {
+    animation: none;
+    margin: 1rem auto;
+  }
+}
+@media only screen and (max-width: 41.5rem) {
+  /* 1. Map/container10 adapts to mobile */
+  .container10 {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 1rem;
+  }
+  .map {
+    width: 90%;
+  }
+
+  /* 2. Contact/info section */
+  .container11 {
+    width: 95%;
+    margin: 1rem auto;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  .con {
+    width: 100%;
+    height: auto;
+    transform: none;
+    animation: none;
+    background-color: white;
+    padding: 1rem;
+  }
+  .contact {
+    width: 90%;
+    height: auto;
+    margin: 1rem 0;
+  }
+
+  /* 3. Icon & info text resize */
+  #ic, #ic1, #ic2, #ic3, #ic4 {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+  }
+  .address, .colony, .email1, .email2,
+  .telephone, .mobile, .hours, .hour,
+  .information, .info {
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+  }
+
+  /* 4. Form fields scale full width */
+  .message {
+    width: 90%;
+    height: auto;
+    margin: 1rem auto;
+  }
+  input {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  .send, .sendmessage {
+    width: 90%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    margin: 0.5rem auto;
+  }
+
+  /* 5. Footer stacks vertically */
+  .foot {
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+  }
+  .foot1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .one {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  .k, .k1, .k2, .k3, .k4, .k5 {
+    animation: none;
+    display: none; /* Optional: hide if cluttered */
+  }
+}
+  @media screen and (max-width:664px) {
+  label { 
+    display: block;
+   }
+  .container{ 
+    display: block;
+   }
+   .twitter{
+   display:none;
+   }
+   .facebook{
+   display:none;
+   }
+   .instagram{
+  display: none;
+   }
+  label:hover.container {
+    display: block;
+  }
+}
